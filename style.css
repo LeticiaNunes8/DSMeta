@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{  /*Qualquer elemento*/
+    font-family: 'Roboto', sans-serif; /*tera fonte roboto e nao carregar vai aparecer em sans*/
+    box-sizing: border-box; /*ve video dele do que se trata*/
+    margin: 0; /*ninguem vai ter margin e padding e se eu quiser eu coloco especificamente*/
+    padding: 0;
+}
+
+body, html{
+    color: #FFFFFF;
+    background-color: #000;
+    font-family: roboto;
+}
+
+a, a:visited{
+    color: unset;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(43, 165, 226)
+}
+
+header{
+    height: 220px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    display: flex;
+    align-items: center; /*alinha vertical*/
+    justify-content: center; /*alinha horizontal*/
+}
+
+.dsmeta-logo-container{
+    display: flex;
+    flex-direction: column; /* o flex deixa um lado do outro e o column deixa alinhado em coluna*/
+    align-items: center; /*todos os itens dentro dessa div estará centralizado*/
+}
+.dsmeta-logo-container img{ /*altera o tamanho de todas as imagem dentro dessa classe*/
+    width: 235px;
+}
+
+.dsmeta-logo-container h1{
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.dsmeta-logo-container p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
